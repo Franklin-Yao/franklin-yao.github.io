@@ -102,23 +102,9 @@
                 <div class="col-7">
                     <p>This is a research project. </p>
                     <ul>
-                        <li>We proposed a new and realistic setting, cross-domain few-shot learning and designed a benchmark for this setting.</li>
-                        <li>We proposed a contrastive learning based approach and a rotation based approach and our methods improve the accuracy from 60% (the baseline) to 70%.</li>
-                        <li>We published two papers based on the above results.</li>
+                        <li>Designed and implemented a new type of spherical convolutional layer, a new type of spherical pooling layer and convolutional neural networks for 3d models classification and retrieval.</li>
+                        <li>Achieved superior accuracies over the state of the art and publish a paper in ICLR.</li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="page">
-        <div class="container">
-            <h2 class="heading">Dataset Overivew</h2>
-            <div class="row">
-                <div class="col-5">
-                    <img class="img-fluid" src="./imgs/fewshot-dataset.PNG"/>
-                </div>
-                <div class="col-7">
-                    <p>We built our dataset on top of DomainNet, which has 6 domains for each categories.</p>
                 </div>
             </div>
         </div>
@@ -127,13 +113,26 @@
         <div class="container">
             <h2 class="heading">Dataset</h2>
             <div class="row">
-                <div class="col-8">
-                    <p>Baseline Algorithm</p>
-                    <img class="img-fluid" src="./imgs/fewshot-algo0.PNG">
+                <div class="col-5">
+                    <img class="img-fluid" src="./imgs/modelnet-dataset.PNG"/>
                 </div>
-                <div class="col-4">
-                    <p>Our Algorithm</p>
-                    <img class="img-fluid" src="./imgs/fewshot-algo1.PNG">
+                <div class="col-7">
+                    <p>We used Modelnet10 and ModelNet40, which are 3d model datasets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page">
+        <div class="container">
+            <h2 class="heading">Approach Overivew</h2>
+            <div class="row">
+                <div class="col-6">
+                    <p>The Whole Pipeline</p>
+                    <img class="img-fluid" src="./imgs/modelnet-method.PNG">
+                </div>
+                <div class="col-6">
+                    <p>Spherical Convolution</p>
+                    <img class="img-fluid" src="./imgs/modelnet-method1.PNG">
                 </div>
             </div>
         </div>
@@ -142,8 +141,8 @@
         <div class="container">
             <h2 class="heading">Result</h2>
             <div class="row">
-                <div class="col-5">
-                    <img class="img-fluid" src="./imgs/fewshot-algo1-result.PNG">
+                <div class="col-8">
+                    <img class="img-fluid" src="./imgs/modelnet-result.PNG">
                 </div>
             </div>
         </div>
@@ -153,11 +152,7 @@
             <h2 class="heading">Publications</h2>
             <ul>
                 <li>
-                    Yao, Fupin. "Cross-domain few-shot learning with unlabelled data." arXiv preprint arXiv:2101.07899 (2021).
-                </li>
-                <li>
-                    Yao, Fupin. "Machine learning with limited data." arXiv preprint arXiv:2101.11461 (2021).
-                </li>
+                    Liu, Min, Fupin Yao, Chiho Choi, Ayan Sinha, and Karthik Ramani. "Deep learning 3d shapes using alt-az anisotropic 2-sphere convolution." In International Conference on Learning Representations. 2018.                </li>
             </ul>
         </div>
     </section>
