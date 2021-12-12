@@ -3,3 +3,13 @@
     font-size: 18px;
     font-weight: 700;
     color: red; }
+
+.icon-parser::before{
+    content: url('../images/icons/file.png');
+}
+.icon-fewshot::before{
+    content: url('../images/icons/fewshot.png');
+}
+.icon-modelnet::before{
+    content: url('../images/icons/modelnet.png');
+}
