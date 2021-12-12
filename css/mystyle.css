@@ -13,3 +13,6 @@
 .icon-modelnet::before{
     content: url('../images/icons/modelnet.png');
 }
+.icon-climate::before{
+    content: url('../images/skills/react.png');
+}
